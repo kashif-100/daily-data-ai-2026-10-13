@@ -1,0 +1,122 @@
+{
+  "reference_date": "2026-10-13",
+  "n_customers": 1500,
+  "n_transactions": 17021,
+  "total_revenue_inr": 49473989.0,
+  "rfm_medians": {
+    "Recency": 174.0,
+    "Frequency": 5.0,
+    "Monetary": 9605.4
+  },
+  "segments": [
+    {
+      "segment": "Champions",
+      "customers": 343,
+      "revenue_inr": 30868493.13,
+      "avg_recency_days": 25.43,
+      "avg_orders": 27.57,
+      "revenue_share": 0.62
+    },
+    {
+      "segment": "Loyal Customers",
+      "customers": 447,
+      "revenue_inr": 16015736.28,
+      "avg_recency_days": 110.34,
+      "avg_orders": 13.26,
+      "revenue_share": 0.32
+    },
+    {
+      "segment": "Lost",
+      "customers": 492,
+      "revenue_inr": 996843.46,
+      "avg_recency_days": 303.66,
+      "avg_orders": 1.64,
+      "revenue_share": 0.02
+    },
+    {
+      "segment": "At Risk",
+      "customers": 74,
+      "revenue_inr": 729909.75,
+      "avg_recency_days": 285.91,
+      "avg_orders": 4.57,
+      "revenue_share": 0.01
+    },
+    {
+      "segment": "Potential Loyalists",
+      "customers": 57,
+      "revenue_inr": 302738.05,
+      "avg_recency_days": 14.3,
+      "avg_orders": 3.21,
+      "revenue_share": 0.01
+    },
+    {
+      "segment": "Hibernating",
+      "customers": 34,
+      "revenue_inr": 279131.21,
+      "avg_recency_days": 284.26,
+      "avg_orders": 2.91,
+      "revenue_share": 0.01
+    },
+    {
+      "segment": "Needs Attention",
+      "customers": 36,
+      "revenue_inr": 199164.61,
+      "avg_recency_days": 26.33,
+      "avg_orders": 4.64,
+      "revenue_share": 0.0
+    },
+    {
+      "segment": "About to Sleep",
+      "customers": 17,
+      "revenue_inr": 81972.76,
+      "avg_recency_days": 217.06,
+      "avg_orders": 2.35,
+      "revenue_share": 0.0
+    }
+  ],
+  "kmeans": {
+    "best_k": 5,
+    "silhouette": 0.671,
+    "all_silhouettes": {
+      "2": 0.543,
+      "3": 0.613,
+      "4": 0.659,
+      "5": 0.671,
+      "6": 0.663,
+      "7": 0.661,
+      "8": 0.647
+    },
+    "clusters": {
+      "0": {
+        "size": 296,
+        "avg_recency_days": 18.2,
+        "avg_orders": 6.3,
+        "avg_spend_inr": 12265.0
+      },
+      "1": {
+        "size": 630,
+        "avg_recency_days": 296.4,
+        "avg_orders": 2.1,
+        "avg_spend_inr": 3520.0
+      },
+      "2": {
+        "size": 241,
+        "avg_recency_days": 32.1,
+        "avg_orders": 22.7,
+        "avg_spend_inr": 64772.0
+      },
+      "3": {
+        "size": 81,
+        "avg_recency_days": 10.2,
+        "avg_orders": 47.8,
+        "avg_spend_inr": 185436.0
+      },
+      "4": {
+        "size": 252,
+        "avg_recency_days": 170.9,
+        "avg_orders": 17.8,
+        "avg_spend_inr": 51570.0
+      }
+    }
+  }
+}
